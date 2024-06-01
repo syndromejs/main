@@ -1,0 +1,8 @@
+{
+  "name": "@syncrome/cli",
+  "description": "A CLI tool for Syndrome",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./index.ts"
+  }
+}
