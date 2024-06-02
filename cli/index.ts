@@ -1,4 +1,4 @@
-import { Command, Option, runExit } from "npm:clipanion";
+import { Command, Option, runExit } from "npm:clipanion@4.0.0-rc.3";
 
 /**
  * EchoCommand using clipanion
@@ -12,7 +12,7 @@ runExit(
     });
 
     async execute() {
-      this.context.stdout.write(`${this.text}\n`);
+      await this.context.stdout.write(`${this.text}\n`);
     }
   }
 );
