@@ -1,0 +1,21 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:clipanion": "npm:clipanion@4.0.0-rc.3_typanion@3.14.0"
+    },
+    "npm": {
+      "clipanion@4.0.0-rc.3_typanion@3.14.0": {
+        "integrity": "sha512-+rJOJMt2N6Oikgtfqmo/Duvme7uz3SIedL2b6ycgCztQMiTfr3aQh2DDyLHl+QUPClKMNpSg3gDJFvNQYIcq1g==",
+        "dependencies": {
+          "typanion": "typanion@3.14.0"
+        }
+      },
+      "typanion@3.14.0": {
+        "integrity": "sha512-ZW/lVMRabETuYCd9O9ZvMhAh8GslSqaUjxmK/JLPCh6l73CvLBiuXswj/+7LdnWOgYsQ130FqLzFz5aGT4I3Ug==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
